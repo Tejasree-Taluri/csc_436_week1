@@ -1,0 +1,16 @@
+body{
+    font-family: helvetica;
+}
+
+ul{
+    font-family: helvetica;
+}
+
+ol{
+    font-family: helvetica;
+    list-style:circle;
+}
+
+.className{
+    list-style:lower-greek;
+}
