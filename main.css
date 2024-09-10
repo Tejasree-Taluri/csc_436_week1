@@ -38,6 +38,8 @@ ol{
     --fontColor:var(--green);
 }
 .btn-changeTheme{
-    align-content:end;
-    --bg:var(--green);
+    color:#000000;
+    position:absolute;
+    background-color: #00FF00;
+    border-radius: 75%;
 }
