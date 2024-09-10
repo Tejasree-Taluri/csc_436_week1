@@ -1,5 +1,12 @@
+:root{
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+}
 body{
     font-family: helvetica;
+    background: var(--bg);
+    color: var(--fontColor);
 }
 
 ul{
@@ -13,4 +20,24 @@ ol{
 
 .className{
     list-style:lower-greek;
+}
+
+.neonTheme{
+    --bg: var(--green);
+    --fontColor: var(--black);
+
+}
+
+.lightTheme{
+    --bg:var(--white);
+    --fontColor:var(--black);
+}
+
+.darkTheme{
+    --bg:var(--black);
+    --fontColor:var(--green);
+}
+.btn-changeTheme{
+    align-content:end;
+    --bg:var(--green);
 }
